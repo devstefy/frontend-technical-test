@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         background: "var(--bg-primary)",
+        bgSecondary: "var(--bg-secondary)",
 
         buttonPrimary: "var(--bg-button-primary)",
 
@@ -23,7 +24,8 @@ const config: Config = {
         foreground: "var(--foreground)",
         textPrimary: "var(--text-primary)",
         textSecondary: "var(--text-secondary)",
-        textTertiary: "var(--text-tertiary)"
+        textTertiary: "var(--text-tertiary)",
+        textBrandTertiary: "var(--text-brand-tertiary)"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

@@ -6,6 +6,7 @@
 
 :root {
   --bg-primary: #ffffff;
+  --bg-secondary: #F9FAFB;
   --bg-brand-section: #53389E;
 
   --bg-button-primary: #7F56D9;
@@ -20,6 +21,7 @@
   --text-primary: #ffffff;
   --text-secondary: #475467;
   --text-tertiary: #E9D7FE;
+  --text-brand-tertiary: #7F56D9;
 }
 
 @media (prefers-color-scheme: dark) {
