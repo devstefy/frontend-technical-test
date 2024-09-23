@@ -7,10 +7,18 @@
 :root {
   --bg-primary: #ffffff;
   --bg-brand-section: #53389E;
+
   --bg-button-primary: #7F56D9;
+
+  --utility-brand-50: #F9F5FF;
+  --utility-brand-200: #E9D7FE;
+  --utility-brand-700: #6941C6;
+
+  --border-secondary: #EAECF0;
 
   --foreground: #101828;
   --text-primary: #ffffff;
+  --text-secondary: #475467;
   --text-tertiary: #E9D7FE;
 }
 
