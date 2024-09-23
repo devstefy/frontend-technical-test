@@ -12,12 +12,15 @@ const config: Config = {
       colors: {
         background: "var(--bg-primary)",
         bgSecondary: "var(--bg-secondary)",
+        bgBrand: "var(--bg-brand-section)",
 
         buttonPrimary: "var(--bg-button-primary)",
 
         utilityBrand50: "var(--utility-brand-50)",
         utilityBrand200: "var(--utility-brand-200)",
         utilityBrand700: "var(--utility-brand-700)",
+
+        fgBrandSecondary: "var(--fg-brand-secondary)",
 
         borderSecondary: "var(--border-secondary)",
 

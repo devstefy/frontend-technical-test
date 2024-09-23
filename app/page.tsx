@@ -1,4 +1,4 @@
-import { FeatureSection, IntegrationSection, MetricsSection } from "@/src";
+import { FeatureSection, IntegrationSection, MetricsSection, TestimonialSection } from "@/src";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <IntegrationSection></IntegrationSection>
       <MetricsSection></MetricsSection>
       <FeatureSection></FeatureSection>
+      <TestimonialSection></TestimonialSection>
     </div>
   );
 }
