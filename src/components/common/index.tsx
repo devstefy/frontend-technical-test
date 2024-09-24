@@ -1,5 +1,6 @@
 export * from "./cta-component";
 export * from "./cta-buttons";
+export * from "./dropdown-component";
 export * from "./card-component";
 export * from "./feature-component";
 export * from "./feature-element";

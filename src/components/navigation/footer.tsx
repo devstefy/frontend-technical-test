@@ -1,6 +1,8 @@
 import { footer } from "@/src/constants";
-import { FooterGetProps, FooterLinkProps, FooterSectionProps } from "@/src/interfaces";
+import { LogoIcon } from "@/src/icons";
+import { FooterGetProps, LinkProps, FooterSectionProps } from "@/src/interfaces";
 import Link from "next/link";
+import { Logo } from "./logo";
 
 export const Footer = () => {
   const data = footer;
@@ -13,7 +15,7 @@ export const Footer = () => {
             <p className={`font-inter font-semibold text-sm mb-1`}>
               {section?.name}
             </p>
-            {section.links.map((link: FooterLinkProps, index: number) => (
+            {section.links.map((link: LinkProps, index: number) => (
                 <Link
                     className={`mt-4 cursor-pointer hover:opacity-80 flex flex-row items-center`}
                     key={`link-${index}`}
@@ -45,14 +47,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="w-full min-h-[10vh] md:min-h-[10vh] lg:min-h-[10vh] border-t border-borderSecondary flex flex-col md:flex-row justify-center md:justify-between items-center">
-        <div className="flex flex-row items-center pt-5 md:pt-0">
-          {data?.company?.icon}
-          <p
-            className={`font-inter text-2xl sm:text-2xl md:text-2xl font-semibold ml-1`}
-          >
-            {data?.company?.name}
-          </p>
-        </div>
+        <Logo icon={data?.company?.icon} name={data?.company?.name}></Logo>
         <p
           className={`font-inter text-textQuarterary text-xs md:text-base pt-5 md:pt-0 text-center`}
         >

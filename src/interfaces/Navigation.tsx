@@ -1,6 +1,8 @@
+import { CTAActionProps } from "./CTA"
 
 
-export interface FooterCompanyProps {
+
+export interface LogoProps {
     icon: React.ReactNode,
     name: string
 }
@@ -10,7 +12,7 @@ export interface FooterGetProps {
     link: string
 }
 
-export interface FooterLinkProps {
+export interface LinkProps {
     text: string,
     link: string,
     tag?: string
@@ -18,12 +20,24 @@ export interface FooterLinkProps {
 
 export interface FooterSectionProps {
     name: string,
-    links: FooterLinkProps[]
+    links: LinkProps[]
 }
 
 export interface FooterProps {
-    company: FooterCompanyProps,
+    company: LogoProps,
     getters: FooterGetProps[],
     sections: FooterSectionProps[]
     copyright: string
+}
+
+export interface NavbarLinkProps {
+    text: string,
+    link?: string,
+    links?: LinkProps[]
+}
+
+export interface NavbarProps {
+    company: LogoProps,
+    links: NavbarLinkProps[],
+    actions: CTAActionProps[]
 }

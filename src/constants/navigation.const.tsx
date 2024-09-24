@@ -1,5 +1,97 @@
 import { GetAppStoreIcon, GetGooglePlayIcon, LogoIcon } from "../icons";
-import { FooterProps } from "../interfaces";
+import { FooterProps, NavbarProps } from "../interfaces";
+
+export const navbar : NavbarProps = {
+    company: {
+        icon: <LogoIcon width="38" height="38"/>,
+        name: "Untitled UI",
+    },
+    links: [
+        {
+            text: "Home",
+            link: ""
+        },
+        {
+            text: "Products",
+            links: [
+                {
+                    text: "Overview",
+                    link: ""
+                },
+                {
+                    text: "Features",
+                    link: ""
+                },
+                {
+                    text: "Solutions",
+                    link: "",
+                    tag: "New"
+                },
+                {
+                    text: "Tutorials",
+                    link: ""
+                },
+                {
+                    text: "Pricing",
+                    link: ""
+                },
+                {
+                    text: "Releases",
+                    link: ""
+                },
+            ]
+        },
+        {
+            text: "Resources",
+            links: [
+                {
+                    text: "Blog",
+                    link: ""
+                },
+                {
+                    text: "Newsletter",
+                    link: ""
+                },
+                {
+                    text: "Events",
+                    link: "",
+                },
+                {
+                    text: "Help center",
+                    link: ""
+                },
+                {
+                    text: "Tutorials",
+                    link: ""
+                },
+                {
+                    text: "Support",
+                    link: ""
+                },
+            ]
+        },
+        {
+            text: "Pricing",
+            link: ""
+        }
+    ],
+    actions: [
+        {
+            text: {
+                text: "Log in",
+                color: "text-foreground",
+            },
+            background: "bg-white",
+        },
+        {
+            text: {
+                text: "Sign up",
+                color: "text-white",
+            },
+            background: "bg-buttonPrimary"
+         }
+    ]
+}
 
 export const footer : FooterProps = {
     company: {
