@@ -5,4 +5,6 @@ export * from "./get-google-play-icon";
 export * from "./google-drive-icon";
 export * from "./lightning-bolt-icon";
 export * from "./logo-icon";
+export * from "./minus-circle";
+export * from "./plus-circle";
 export * from "./star-icon";

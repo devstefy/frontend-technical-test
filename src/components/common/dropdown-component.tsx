@@ -35,7 +35,7 @@ export const DropdownComponent = (link: NavbarLinkProps) => {
       }, []);
 
     return (
-        <div className="relative inline-block">
+        <div ref={dropdownRef} className="relative inline-block">
             <button
                 className={`cursor-pointer hover:opacity-80 hidden lg:flex flex-row items-center ml-7`}
                 type="button"

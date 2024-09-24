@@ -1,3 +1,4 @@
+export * from "./accordion-component";
 export * from "./cta-component";
 export * from "./cta-buttons";
 export * from "./dropdown-component";
