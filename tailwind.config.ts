@@ -29,7 +29,8 @@ const config: Config = {
         textPrimary: "var(--text-primary)",
         textSecondary: "var(--text-secondary)",
         textTertiary: "var(--text-tertiary)",
-        textBrandTertiary: "var(--text-brand-tertiary)"
+        textBrandTertiary: "var(--text-brand-tertiary)",
+        textQuarterary: "var(--text-quarterary)"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

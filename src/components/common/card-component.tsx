@@ -1,7 +1,6 @@
 "use client";
 
 import { CardComponentProps, CTAComponentProps, TestimonialElement } from "@/src/interfaces";
-import Image from "next/image";
 import { Dispatch, SetStateAction, useState } from "react";
 import { TestimonialComponent } from "./testimonial-component";
 import { CTAComponent } from "./cta-component";

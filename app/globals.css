@@ -25,6 +25,7 @@
   --text-secondary: #475467;
   --text-tertiary: #E9D7FE;
   --text-brand-tertiary: #7F56D9;
+  --text-quarterary: #667085;
 }
 
 @media (prefers-color-scheme: dark) {
