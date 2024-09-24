@@ -11,6 +11,6 @@ export interface FeatureComponentProps {
     tag: string,
     title: string,
     description: string,
-    buttonName: string;
+    buttonName: string,
     apps: FeatureElementProps[]
 }

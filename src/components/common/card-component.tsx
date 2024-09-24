@@ -1,9 +1,10 @@
 "use client";
 
-import { CardComponentProps, TestimonialElement } from "@/src/interfaces";
+import { CardComponentProps, CTAComponentProps, TestimonialElement } from "@/src/interfaces";
 import Image from "next/image";
-import { useState } from "react";
+import { Dispatch, SetStateAction, useState } from "react";
 import { TestimonialComponent } from "./testimonial-component";
+import { CTAComponent } from "./cta-component";
 
 export const CardComponent = ({
   data,
@@ -11,7 +12,7 @@ export const CardComponent = ({
   imagePosition
 }: CardComponentProps) => {
 
-  const [cardElement, setCardElement] = useState<TestimonialElement>(data?.[0] ?? data)
+  const [cardElement, setCardElement] = useState<TestimonialElement | CTAComponentProps>(Array.isArray(data) && data.length > 0 ? (data?.[0] as TestimonialElement) : (data as CTAComponentProps))
 
   return (
     <div className={`min-h-[60vh] max-h-[70vh] md:max-h-[60vh] bg-bgBrand mx-16 md:mx-16 lg:mx-40 rounded-2xl flex flex-col ${imagePosition === 'right' ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
@@ -19,14 +20,14 @@ export const CardComponent = ({
           <img 
               className={`object-cover w-full h-full`}
               src={cardElement.image} 
-              alt={`${cardElement.name} Testimony`} 
+              alt={`${cardElement?.name}`} 
           />
       </div>
       <div className="min-h-[50vh] md:min-h-[60vh] md:w-[60%] h-full flex items-center justify-center">
           {type === "pages" ?
-          <TestimonialComponent {...cardElement} data={data} setData={setCardElement}></TestimonialComponent>
+          <TestimonialComponent {...cardElement as TestimonialElement} data={data as TestimonialElement[]} setData={setCardElement as Dispatch<SetStateAction<TestimonialElement>>}></TestimonialComponent>
           :
-          <TestimonialComponent {...cardElement} data={data} setData={setCardElement}></TestimonialComponent>
+          <CTAComponent {...cardElement as CTAComponentProps}></CTAComponent>
           }
       </div>
     </div>
