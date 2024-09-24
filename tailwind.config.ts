@@ -23,6 +23,7 @@ const config: Config = {
         fgBrandSecondary: "var(--fg-brand-secondary)",
 
         borderSecondary: "var(--border-secondary)",
+        borderButtonSecondary: "var(--border-button-secondary)",
 
         foreground: "var(--foreground)",
         textPrimary: "var(--text-primary)",

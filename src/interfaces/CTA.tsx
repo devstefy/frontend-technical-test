@@ -7,15 +7,17 @@ export interface CTATextProps {
 
 export interface CTAActionProps {
     text: CTATextProps,
-    background?: string
+    background?: string,
+    border?: string
 }
 
 export interface CTAComponentProps {
     title: CTATextProps,
     description: CTATextProps,
-    image: string;
-    name: string;
-    actions: CTAActionProps[]
+    image: string,
+    name: string,
+    actions: CTAActionProps[],
+    photos?: string[]
 }
 
 export interface CTAButtonsProps {

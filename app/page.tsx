@@ -1,4 +1,4 @@
-import { CTACardSection, FeatureSection, IntegrationSection, MetricsSection, TestimonialSection } from "@/src";
+import { CTACardSection, CTASection, FeatureSection, IntegrationSection, MetricsSection, TestimonialSection } from "@/src";
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <MetricsSection></MetricsSection>
       <FeatureSection></FeatureSection>
       <TestimonialSection></TestimonialSection>
+      <CTASection></CTASection>
       <CTACardSection></CTACardSection>
     </div>
   );

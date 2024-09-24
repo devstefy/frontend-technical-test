@@ -6,7 +6,7 @@ export const CTAButtons = ({ actions }: CTAButtonsProps) => {
       {actions.map((action: CTAActionProps, index: number) => (
         <button 
             key={`action-button-${index}`}
-            className={`font-inter font-semibold px-0 py-4 rounded-lg ${action.text?.color} ${action.background}`}
+            className={`font-inter font-semibold px-0 py-4 rounded-lg hover:opacity-80 ${action.text?.color} ${action.background} ${action.border}`}
         >{action.text?.text}</button>
       ))}
     </div>

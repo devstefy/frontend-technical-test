@@ -19,3 +19,7 @@ export interface HeaderComponentProps {
     textAlign?: string,
     descriptionFullWidth?: boolean
 }
+
+export interface ImageComponentProps {
+    photos: string[],
+}
