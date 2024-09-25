@@ -1,5 +1,4 @@
 import { footer } from "@/src/constants";
-import { LogoIcon } from "@/src/icons";
 import { FooterGetProps, LinkProps, FooterSectionProps } from "@/src/interfaces";
 import Link from "next/link";
 import { Logo } from "./logo";

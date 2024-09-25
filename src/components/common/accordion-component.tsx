@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronDownIcon, MinusCircleIcon, PlusCircleIcon } from "@/src/icons";
+import { MinusCircleIcon, PlusCircleIcon } from "@/src/icons";
 import { FAQElementProps } from "@/src/interfaces/FAQ";
 import { useEffect, useRef, useState } from "react";
 

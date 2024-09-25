@@ -1,7 +1,8 @@
 import { HelpCircleIcon } from "@/src/icons";
+import { InputHeroProps } from "@/src/interfaces";
 import Link from "next/link";
 
-export const HeroForm = (input: any) => {
+export const HeroForm = (input: InputHeroProps) => {
   return (
     <form className="w-auto h-auto flex flex-col md:flex-row gap-4  justify-center items-center md:items-start my-16">
       <div className="flex flex-col">

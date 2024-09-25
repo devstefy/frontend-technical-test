@@ -1,6 +1,4 @@
 import { hero } from "@/src/constants";
-import { HeaderComponent } from "../common";
-import { HelpCircleIcon } from "@/src/icons";
 import { HeroForm } from "../forms";
 
 export const HeroSection = () => {
