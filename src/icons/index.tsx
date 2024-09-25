@@ -1,4 +1,6 @@
 export * from "./arrow-narrow-right-icon";
+export * from "./chart-breakout-icon";
+export * from "./chat-icon";
 export * from "./chevron-down-icon";
 export * from "./dropbox-icon";
 export * from "./get-app-store-icon";

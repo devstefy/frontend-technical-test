@@ -1,4 +1,4 @@
-import { DropBoxIcon, GoogleDriveIcon, IntercomIcon, JiraIcon, LightningBoltIcon, NotionIcon, SlackIcon } from "../icons";
+import { ChartBreakoutIcon, ChatIcon, DropBoxIcon, GoogleDriveIcon, IntercomIcon, JiraIcon, LightningBoltIcon, NotionIcon, SlackIcon } from "../icons";
 
 export const integrations = {
     tag: "Integrations",
@@ -52,19 +52,19 @@ export const features = {
     buttonName: "Learn more",
     apps: [
         {
-           icon : <LightningBoltIcon width="35" height="35"/>,
+           icon : <ChatIcon width="30" height="30"/>,
            name: "Share team inboxes",
            description: "Wheter you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
            link: ""
         },
         {
-            icon : <LightningBoltIcon width="35" height="35"/>,
+            icon : <LightningBoltIcon width="24" height="24"/>,
             name: "Deliver instant answers",
             description: "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
             link: ""
          },
          {
-            icon : <LightningBoltIcon width="35" height="35"/>,
+            icon : <ChartBreakoutIcon width="24" height="24"/>,
             name: "Manage you team with reports",
             description: "Measures what matters with Untitled's easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.",
             link: ""
