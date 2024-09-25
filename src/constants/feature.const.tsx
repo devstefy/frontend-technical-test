@@ -1,4 +1,4 @@
-import { GoogleDriveIcon, LightningBoltIcon } from "../icons";
+import { DropBoxIcon, GoogleDriveIcon, IntercomIcon, JiraIcon, LightningBoltIcon, NotionIcon, SlackIcon } from "../icons";
 
 export const integrations = {
     tag: "Integrations",
@@ -7,13 +7,13 @@ export const integrations = {
     buttonName: "View integration",
     apps: [
         {
-           icon : <GoogleDriveIcon width="45" height="45"/>,
+           icon : <NotionIcon width="45" height="45"/>,
            name: "Notion integration",
            description: "Work faster and smarter by integrating directly with Notion, right in the app.",
            link: "https://www.notion.so/"
         },
         {
-            icon : <GoogleDriveIcon width="45" height="45"/>,
+            icon : <SlackIcon width="45" height="45"/>,
             name: "Slack integration",
             description: "Work faster and smarter by integrating directly with Notion, right in the app.",
             link: "https://slack.com/intl/es-ve"
@@ -25,19 +25,19 @@ export const integrations = {
             link: "https://www.google.com/intl/es/drive/"
          },
          {
-            icon : <GoogleDriveIcon width="45" height="45"/>,
+            icon : <IntercomIcon width="45" height="45"/>,
             name: "Intercom integration",
             description: "Work faster and smarter by integrating directly with Notion, right in the app.",
             link: "https://www.intercom.com/"
          },
          {
-            icon : <GoogleDriveIcon width="45" height="45"/>,
+            icon : <JiraIcon width="45" height="45"/>,
             name: "Jira integration",
             description: "Work faster and smarter by integrating directly with Notion, right in the app.",
             link: "https://www.atlassian.com/es/software/jira"
          },
          {
-            icon : <GoogleDriveIcon width="45" height="45"/>,
+            icon : <DropBoxIcon width="45" height="45"/>,
             name: "Dropbox integration",
             description: "Work faster and smarter by integrating directly with Notion, right in the app.",
             link: "https://www.dropbox.com/official-teams-page?_tk=paid_sem_goog_biz_b&_camp=19605186703&_kw=dropbox|e&_ad=676237179999||c&gad_source=1&gclid=Cj0KCQjwgL-3BhDnARIsAL6KZ6_O3MsUO0UcoveA20C7xLbTiHeKiYky9agY1SOiRlNWcVZBfTiMh8IaAuAVEALw_wcB"

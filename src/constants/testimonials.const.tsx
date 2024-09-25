@@ -1,7 +1,7 @@
 
 export const testimonials = [
     {
-        image: "https://images.unsplash.com/photo-1665686304312-16e3a16be0ed?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "/testimonial-1.png",
         stars: 5,
         testimony: "Love the simplicity of the service and the prompt customer support. We can't imagine working without it.",
         name: "Renee Wells",
