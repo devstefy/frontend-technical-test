@@ -23,3 +23,10 @@ export interface HeaderComponentProps {
 export interface ImageComponentProps {
     photos: string[],
 }
+
+export interface SpinnerProps {
+    width?: string,
+    height?: string,
+    borderStyle?: string,
+    borderSize?: string
+}
