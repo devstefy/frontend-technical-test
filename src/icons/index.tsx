@@ -1,3 +1,4 @@
+export * from "./arrow-left-icon";
 export * from "./arrow-narrow-right-icon";
 export * from "./chart-breakout-icon";
 export * from "./chat-icon";

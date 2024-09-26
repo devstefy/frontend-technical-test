@@ -24,5 +24,7 @@ export interface CTAButtonsProps {
     actions: CTAActionProps[],
     padding?: string,
     margin?: string,
-    fontSize?: string
+    fontSize?: string,
+    grid?: string,
+    width?: string
 }

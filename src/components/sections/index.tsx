@@ -5,4 +5,5 @@ export * from "./feature-section";
 export * from "./hero-section";
 export * from "./integration-section";
 export * from "./metrics-section";
+export * from "./testimonial-carousel-section";
 export * from "./testimonial-section";
